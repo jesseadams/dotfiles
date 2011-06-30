@@ -23,8 +23,8 @@ if [ -f $HOME/.bash_functions ]; then
   . $HOME/.bash_functions
 fi
 
-if [ -f $HOME/.bash_private ]; then
-  . $HOME/.bash_private
+if [ -f $HOME/.bashrc_private ]; then
+  . $HOME/.bashrc_private
 fi
 
 # RVM

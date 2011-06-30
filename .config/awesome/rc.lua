@@ -107,7 +107,8 @@ myutilmenu = {
 
 mymainmenu = awful.menu({ items = { { "awesome", myawesomemenu, beautiful.awesome_icon },
                                     { "session", myutilmenu },
-                                    { "open terminal", terminal }
+                                    { "open terminal", terminal },
+                                    { "file browser", "urxvt -e ranger" }
                                   }
                         })
 
